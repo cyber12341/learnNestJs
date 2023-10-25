@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 // import { Request, Response } from 'express';
 import { Cat } from '../interface/cats.interface';
 import { CreateCatDto } from '../dto/create-cat-dto';
-import { CatsService } from 'src/services/cats.service';
+import { CatsService } from '../services/cats.service';
 
 //akan membuat default route menjadi cats
 @Controller('cats')
